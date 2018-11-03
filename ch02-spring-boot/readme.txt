@@ -1,7 +1,9 @@
+第2章 spring boot
 1、登录用户
 user/1fc03de6-2a42-4cbc-b32d-abcb78502679
 2、访问页面
 http://localhost:8080/hello
+3、新建项目的时候，要启动nexus
 
 端点
 1、应用配置（静态报告）
