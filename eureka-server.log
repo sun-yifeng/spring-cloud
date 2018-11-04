@@ -1481,3 +1481,76 @@ Caused by: java.net.SocketTimeoutException: Read timed out
 2018-11-04 18:08:26.171  INFO 35876 --- [http-nio-1111-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance HELLO-SERVICE/192.168.3.4:hello-service:1112 with status UP (replication=true)
 2018-11-04 18:08:51.364  INFO 35876 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
 2018-11-04 18:09:20.200  INFO 35885 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-11-04 18:09:51.369  INFO 35876 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-11-04 18:10:20.205  INFO 35885 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-11-04 18:10:51.373  INFO 35876 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2018-11-04 18:11:20.209  INFO 35885 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2018-11-04 18:11:50.856  INFO 35876 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 3
+2018-11-04 18:11:51.378  INFO 35876 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-11-04 18:12:19.676  INFO 35885 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 3
+2018-11-04 18:12:20.215  INFO 35885 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-11-04 18:12:51.381  INFO 35876 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2018-11-04 18:13:20.220  INFO 35885 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-11-04 18:13:51.387  INFO 35876 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-11-04 18:14:20.224  INFO 35885 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2018-11-04 18:14:51.391  INFO 35876 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2018-11-04 18:15:20.233  INFO 35885 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2018-11-04 18:15:51.405  INFO 35876 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2018-11-04 18:16:20.240  INFO 35885 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2018-11-04 18:16:51.408  INFO 35876 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2018-11-04 18:17:20.245  INFO 35885 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2018-11-04 18:17:51.413  INFO 35876 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-11-04 18:18:20.251  INFO 35885 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-11-04 18:18:51.417  INFO 35876 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2018-11-04 18:19:20.255  INFO 35885 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2018-11-04 18:19:51.422  INFO 35876 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-11-04 18:20:20.261  INFO 35885 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-11-04 18:20:51.427  INFO 35876 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2018-11-04 18:20:52.528  INFO 35885 --- [http-nio-1112-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance HELLO-SERVICE/192.168.3.4:hello-service:1211 with status UP (replication=false)
+2018-11-04 18:20:53.074  INFO 35876 --- [http-nio-1111-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Registered instance HELLO-SERVICE/192.168.3.4:hello-service:1211 with status UP (replication=true)
+2018-11-04 18:21:18.765  INFO 35885 --- [http-nio-1112-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance HELLO-SERVICE/192.168.3.4:hello-service:1211 with status UP (replication=false)
+2018-11-04 18:21:18.988  INFO 35885 --- [http-nio-1112-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance HELLO-SERVICE/192.168.3.4:hello-service:1211 with status DOWN (replication=false)
+2018-11-04 18:21:19.511  INFO 35876 --- [http-nio-1111-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance HELLO-SERVICE/192.168.3.4:hello-service:1211 with status DOWN (replication=true)
+2018-11-04 18:21:20.267  INFO 35885 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-11-04 18:21:51.439  INFO 35876 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 10ms
+2018-11-04 18:22:20.271  INFO 35885 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2018-11-04 18:22:22.068  INFO 35885 --- [http-nio-1112-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance HELLO-SERVICE/192.168.3.4:hello-service:1211 with status UP (replication=false)
+2018-11-04 18:22:22.303  INFO 35885 --- [http-nio-1112-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance HELLO-SERVICE/192.168.3.4:hello-service:1211 with status DOWN (replication=false)
+2018-11-04 18:22:22.843  INFO 35876 --- [http-nio-1111-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Registered instance HELLO-SERVICE/192.168.3.4:hello-service:1211 with status DOWN (replication=true)
+2018-11-04 18:22:51.444  INFO 35876 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2018-11-04 18:23:20.275  INFO 35885 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2018-11-04 18:23:51.448  INFO 35876 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2018-11-04 18:24:20.279  INFO 35885 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2018-11-04 18:24:51.452  INFO 35876 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2018-11-04 18:25:20.285  INFO 35885 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-11-04 18:25:51.457  INFO 35876 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2018-11-04 18:26:20.292  INFO 35885 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2018-11-04 18:26:50.896  INFO 35876 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 5
+2018-11-04 18:26:51.460  INFO 35876 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2018-11-04 18:27:19.717  INFO 35885 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 5
+2018-11-04 18:27:20.298  INFO 35885 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-11-04 18:27:51.466  INFO 35876 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-11-04 18:28:20.301  INFO 35885 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2018-11-04 18:28:51.468  INFO 35876 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2018-11-04 18:29:20.303  INFO 35885 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2018-11-04 18:29:51.475  INFO 35876 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2018-11-04 18:29:59.977  INFO 35885 --- [http-nio-1112-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance HELLO-SERVICE/192.168.3.4:hello-service:1211 with status DOWN (replication=false)
+2018-11-04 18:30:00.477  INFO 35885 --- [Thread-13] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5afa04c: startup date [Sun Nov 04 17:57:09 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@ba8a1dc
+2018-11-04 18:30:00.480  INFO 35885 --- [Thread-13] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application eureka-server with eureka with status DOWN
+2018-11-04 18:30:00.482  INFO 35885 --- [Thread-13] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2018-11-04 18:30:00.485  INFO 35885 --- [Thread-13] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2018-11-04 18:30:00.489  INFO 35876 --- [http-nio-1111-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance HELLO-SERVICE/192.168.3.4:hello-service:1211 with status DOWN (replication=true)
+2018-11-04 18:30:00.492  INFO 35885 --- [Thread-13] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2018-11-04 18:30:00.497  INFO 35885 --- [Thread-13] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-11-04 18:30:00.498  INFO 35885 --- [Thread-13] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-11-04 18:30:00.506  INFO 35885 --- [Thread-13] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2018-11-04 18:30:00.507  INFO 35885 --- [Thread-13] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2018-11-04 18:30:01.196  INFO 35876 --- [Thread-13] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5afa04c: startup date [Sun Nov 04 17:56:40 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@ba8a1dc
+2018-11-04 18:30:01.198  INFO 35876 --- [Thread-13] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application eureka-server with eureka with status DOWN
+2018-11-04 18:30:01.200  INFO 35876 --- [Thread-13] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2018-11-04 18:30:01.207  INFO 35876 --- [Thread-13] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2018-11-04 18:30:01.217  INFO 35876 --- [Thread-13] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2018-11-04 18:30:01.223  INFO 35876 --- [Thread-13] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-11-04 18:30:01.223  INFO 35876 --- [Thread-13] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-11-04 18:30:01.233  INFO 35876 --- [Thread-13] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2018-11-04 18:30:01.233  INFO 35876 --- [Thread-13] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
