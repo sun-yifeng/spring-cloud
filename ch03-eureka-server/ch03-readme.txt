@@ -10,7 +10,7 @@ java -jar /Users/sunyifeng/IdeaProjects/spring-cloud/ch03-eureka-server/target/c
 
 java -jar /Users/sunyifeng/IdeaProjects/spring-cloud/ch03-eureka-server/target/ch03-eureka-server-0.0.1-SNAPSHOT.jar to /Users/sunyifeng/.m2/repository/com/sunyf/spring/cloud/ch03-eureka-server/0.0.1-SNAPSHOT/ch03-eureka-server-0.0.1-SNAPSHOT.jar --spring.profiles.active=peer2
 
-3、访问服务，过几十秒才能访问
+3、访问注册中心服务之后，过几十秒才能访问
 http://localhost:1111
 http://localhost:1112
 
