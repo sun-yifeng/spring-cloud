@@ -4,17 +4,17 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.sunyf.spring.cloud</groupId>
-    <artifactId>spring-cloud</artifactId>
+    <artifactId>ch03-eureka-server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>spring-cloud</name>
-    <description>Demo project for Spring Cloud</description>
+    <name>ch03-eureka-server</name>
+    <description>Demo project for eureka-server</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.1.0.RELEASE</version>
+        <version>1.5.17.RELEASE</version>
         <relativePath/>
         <!-- lookup parent from repository -->
     </parent>
@@ -23,12 +23,15 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
+        <spring-cloud.version>Edgware.SR5</spring-cloud.version>
+        <!--<spring-cloud.version>Brixton.SR5</spring-cloud.version>-->
     </properties>
 
     <dependencies>
+        <!--服务注册中心-->
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
         </dependency>
 
         <dependency>
@@ -37,6 +40,18 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring-cloud.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
     <build>
         <plugins>
